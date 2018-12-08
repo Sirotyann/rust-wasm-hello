@@ -1,0 +1,18 @@
+{
+  "name": "rust-wasm-hello-www",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sh ./build.sh && webpack --config webpack.config.js",
+    "start": "webpack-dev-server --open"
+  },
+  "keywords": [],
+  "author": "lichengac@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
